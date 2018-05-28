@@ -1,0 +1,11 @@
+2018-05-26T06:52:26+00:00 CRITICAL Uncaught Error: Call to undefined function the_field() in G:\xampp\htdocs\working\wp-content\themes\storefront\woocommerce\single-product\add-to-cart\simple.php:68
+Stack trace:
+#0 G:\xampp\htdocs\working\wp-content\plugins\woocommerce\includes\wc-core-functions.php(209): include()
+#1 G:\xampp\htdocs\working\wp-content\plugins\woocommerce\includes\wc-template-functions.php(1506): wc_get_template('single-product/...')
+#2 G:\xampp\htdocs\working\wp-includes\class-wp-hook.php(286): woocommerce_simple_add_to_cart('')
+#3 G:\xampp\htdocs\working\wp-includes\class-wp-hook.php(310): WP_Hook->apply_filters('', Array)
+#4 G:\xampp\htdocs\working\wp-includes\plugin.php(453): WP_Hook->do_action(Array)
+#5 G:\xampp\htdocs\working\wp-content\plugins\woocommerce\includes\wc-template-functions.php(1497): do_action('woocommerce_sim...')
+#6 G:\xampp\htdocs\working\wp-includes\class-wp-hook.php(286): woocommerce_template_single_add_to_cart('')
+#7 G:\xampp\htdocs\working\wp-includes\class-wp-hook.php(310): WP_Hook->apply_filters(NU
+
